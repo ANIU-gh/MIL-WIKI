@@ -1,0 +1,63 @@
+html
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*.hero-section {
+    width: 100%;
+    min-height: 80vh; 
+    background-image: url('logo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}*/
+
+#nav-logo
+{
+    height: 40px;
+    width: auto;
+    border-radius: 10%;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: rgb(73, 71, 71);
+    height: 50px;
+    width: auto;
+    align-items: center;
+    
+     
+    a:link
+    {
+        text-decoration: none;
+        color: red
+        
+        
+
+    }
+
+    a:visited
+    {
+        color: red;
+    }
+    
+    
+    
+   
+}
+
+main
+{
+ display: grid;
+ grid-template-rows: 100px,100px;
+ grid-template-columns: 100px,100px;  
+    
+}
